@@ -1,0 +1,2 @@
+#home { position: fixed; top: 0; right: 0; left: 0; bottom: 0; background: url("/assets/images/home_bg.jpg"); background-position: center; background-size: cover; text-align: center; }
+#home #home-main-menu { margin: 15% auto; display: inline-block; }
