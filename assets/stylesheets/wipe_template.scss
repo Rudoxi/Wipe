@@ -24,3 +24,28 @@ html, body {
     background: rgba(0,0,0,0.75);
   }
 }
+
+
+.wow-btn {
+  border-image: url('/assets/images/ButtonBg.png') 45 stretch;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 10px;
+
+  > span {
+    padding: 0px 5px;
+    color: #fdca25;
+    background-image: url('/assets/images/ButtonCenterBg.png');
+    background-size: cover;
+    text-shadow: 1px 1px rgba(255,255,255,0.2), -1px -1px rgba(0,0,0,0.5);
+  }
+
+  &:active {
+    border-image: url('/assets/images/PressedButtonBg.png') 50 stretch;
+
+    > span {
+      text-shadow: 1px 1px rgba(0,0,0,0.5), -1px -1px rgba(255,255,255,0.2);
+      background-image: url('/assets/images/PressedButtonCenterBg.png');
+    }
+  }
+}
