@@ -1,251 +1,319 @@
 ---
 layout: default
-title: Guia Completo Argus Mythic
+title: Guia Completo Argus Mythic - <Wipe> @ Gallywix
 ---
 
-<script>var whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};</script>
-<script src="//wow.zamimg.com/widgets/power.js"></script>
+{% include header.html %}
+{% include menu.html %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="wow-dialog wow-paper-background summary">
+        <div class="wow-dialog-content">
+          <ul>
+            <li>
+              <a href="#phase1">Phase 1</a>
+              <ul>
+                <li><a href="#phase1Prioryties">Prioridades</a></li>
+                <li><a href="#phase1OQueFazer">O Que eu faço quando...</a></li>
+                <li><a href="#phase1Timeline">Timeline</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#phase2">Phase 2</a>
+            </li>
+            <li>
+              <a href="#phase3">Phase 3</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="wow-dialog wow-rock-background">
+        <div class="wow-dialog-content">
+        <h1 style="text-align: center;">Guia Completo Argus Mythic</h1> <br>
+        <div id="phase1">
+          <h2>Phase 1:</h2>
+
+          <p>Na phase 1 você precisa lidar com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a>/<a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> junto com os <a href="http://pt.wowhead.com/spell=248165">Cones</a> + <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> e tbm as orbs: <a href="http://pt.wowhead.com/spell=257306">Dádiva do Mar</a>/<a href="http://pt.wowhead.com/spell=257313">Dádiva dos Céus</a> </p>
+
+          <br>
+          <h3 id="phase1Prioryties">Prioridades:</h3>
+
+          <p>
+            Ordem com o que se preocupar:
+            <ol>
+              <li>Você não pode estar na frente do boss. Senão toma <a href="http://pt.wowhead.com/spell=248499"> Golpe Amplo de Foice</a></li>
+              <li>Na hora do <a href="http://pt.wowhead.com/spell=248165">Cone</a> (boss com 100 de energia) você precisa estar no pé direito do boss ou o mais perto da esquerda do cone anterior possível
+                <ul><li>Você pode ignorar isso se você for melee e estiver com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a></li></ul>
+              </li>
+              <li>Se tiver com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> você deve estourar a praga atrás do grupo grudado a esquerda do cone no chão.</li>
+              <li>Se você estiver com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> você fica parado e espera o grupo stackar no pé direito do boss e então:
+                <ul>
+                  <li>Se você for melee: você precisa ir com a <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> para a direita do boss</li>
+                  <li>Se você for ranged: você precisa ficar atrás do grupo, grudado a esquerda do cone no chão</li>
+                </ul>
+              </li>
+              <li>Se você estiver com <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> você fica stackado com o grupo no pé direito do boss</li>
+              <li>Se você não tiver nada dos acima: se posicione para largar <a href="http://pt.wowhead.com/spell=257306">Dádiva do Mar</a> e <a href="http://pt.wowhead.com/spell=257313">Dádiva dos Céus</a> no lugar certo (cada cone é em um lugar, veja a <a href="#phase1Timeline">Timeline</a>)</li>
+            </ol>
+          </p>
+
+          <h3 id="phase1OQueFazer">O que eu faço quando...</h3>
+          <ol>
+            <li>
+              pedem pra espalhar?
+              <ul>
+                <li>
+                  Você precisa ficar a 8 metros de distância de qualquer outro jogador enquanto <a href="http://pt.wowhead.com/spell=258068">Olhar de Sargeras</a> é castado. Assim que terminar você pode ter pego <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> ou <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a>.
+                </li>
+                <li>Se você for um range você não precisa se espalhar nas duas primeiras vezes. Isso pq nas duas primeiras vezes nunca vem <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> em um Range.</li>
+              </ul>
+            </li>
+            <li>peguei <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a>?
+              <ul>
+                <li>Você fica parado e espera o grupo voltar a stackar.</li>
+                <li>Assim que tiver um caminho livre vai pra sua posição:</li>
+                <li>Se você for um melee você deve ficar a direita do boss, cone nunca vai em um melee com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a></li>
+                <li>O melee pode atravesar o meio do boss se precisar, deve ter espaço o suficiente pra não pegar em ninguém e tempo suficiente entre as <a href="http://pt.wowhead.com/spell=248499">Foices</a> </li>
+                <li>Se você for um range você fica atrás do grupo colado a esquerda da cone no chão</li>
+              </ul>
+            </li>
+            <li>peguei <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a>?
+              <ul>
+                <li>Volta e stacka no pé do Boss e segue a vida</li>
+              </ul>
+            </li>
+            <li>peguei <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a>?
+              <ul>
+                <li>Você precisa explodir ela atrás do grupo, colado a esquerda do cone antigo, mas:</li>
+                <li>Vai ter outros players com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> junto contigo</li>
+                <li>Elas não estouram juntas</li>
+                <li>Então a primeira deve ir mais ao fundo da sala, e a ultima mais perto do grupo</li>
+                <li>Fique atento que o cone vem muitas vezes antes da sua <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> estourar</li>
+              </ul>
+            </li>
+            <li>peguei <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> + <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a>?
+              <ul>
+                <li>Você já deve estar longe do resto da pt... pode estourar ela perto de onde você estiver</li>
+              </ul>
+            </li>
+            <li>peguei <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> + <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a>?
+              <ul>
+                <li>Você se posiciona normal onde deve estourar a <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a>, mas:</li>
+                <li>Alguém (normalmente o OffTank ou outro rdps) precisa ir junto contigo, então vá andando normal, sem CD de movimentação</li>
+              </ul>
+            </li>
+            <li>peguei <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> + <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a>?!
+              <ul>
+                <li>Você tá no crack...</li>
+              </ul>
+            </li>
+            <li>peguei <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> e uma das orbs?
+              <ul>
+                <li>Ignora a orb e se posiciona certo com a Raiva</li>
+              </ul>
+            </li>
+            <li>peguei <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> e uma das orbs?
+              <ul>
+                <li>Normalmente você pode posicionar a orb no lugar certo que vai ter players a 8 metros de você mas, só vá se tiver certeza</li>
+              </ul>
+            </li>
+          </ol>
+
+          <br>
+          <br>
+          <h3 id="phase1Timeline">Timeline:</h3>
+          <br>
+          <p>Muita coisa acentece em poucos segundos! Isso é mais ou menos como tudo acentece:</p>
+
+          <ol>
+            <li>Stacka</li>
+            <li>Melee espalha</li>
+            <li>Melee com <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> volta pra stack</li>
+            <li>Melee com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> vai pra direita do boss</li>
+            <li>Quem pegou orb se posiciona pra largar</li>
+            <li>Grupo corre pegar a orb e volta rapido</li>
+            <li><b>Primeiro <a href="http://pt.wowhead.com/spell=248165">Cone</a>!</b></li>
+            <br>
+            <li>Espera o boss chegar na nova posição</li>
+            <li>Corre stackar no pé direito dele</li>
+            <li>Players pegam <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> e junto vem <a href="http://pt.wowhead.com/spell=258068">Olhar de Sargeras</a></li>
+            <li>Players com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> vão pra traz</li>
+            <li>Melee se espalha</li>
+            <li>Player com <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> volta pra stack</li>
+            <li>Melee com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> vai pra direita do boss</li>
+            <li>Player com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> + <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> é escoltado pra traz do boss</li>
+            <li>Antes de acabar <a href="http://pt.wowhead.com/spell=258068">Olhar de Sargeras</a> já vem as Orbs </li>
+            <li>Veja se pegou <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> ou <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> antes de largar a orb</li>
+            <li>Quem pegou orb larga ela pra esquerda no caminho que a PT vai correr do cone</li>
+            <li>Orb dropa e todos tem que estar no pé direito do boss</li>
+            <li>Ninguém pega orb ainda!</li>
+            <li>Quem ta com a Orb + <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> ou <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> não precisa dropar lá</li>
+            <li>O <b>Segundo <a href="http://pt.wowhead.com/spell=248165">Cone</a></b> começa antes do ultimo player com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> estourar!</li>
+            <br>
+            <li>Passa pelas orbs enquanto corre do cone</li>
+            <li><a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> termina de estourar</li>
+            <li>Espera o boss chegar na nova posição</li>
+            <li>Corre stackar no pé direito dele</li>
+            <li>Players pegam <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a></li>
+            <li>O <b>Terceiro <a href="http://pt.wowhead.com/spell=248165">Cone</a></b> começa antes do primeiro player com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> estourar e junto vem as orbs!</li>
+            <br>
+            <li>Quem tá com as orbs larga elas a esquerda do cone</li>
+            <li>Quem ta com a Orb + <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> não precisa dropar lá</li>
+            <li>Grupo pega as orbs e já se espalha</li>
+            <li>Primeira vez que on ranged precisam espalhar tbm</li>
+            <li><a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> termina de estourar</li>
+            <li>Player com <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> volta pra stack</li>
+            <li>Melee com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> fica parado e vai pra direita do boss quande estiver safe</li>
+            <li>Range com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> fica parado e vai pra tráz do grupo e cola a esquerda do cone quando estiver safe</li>
+            <li>Players pegam <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a></li>
+            <li>Quem ta com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> precisa desviar do ranged com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a>.</li>
+            <li>Player com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> + <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> é escoltado pra traz do boss</li>
+            <li>O <b>Quarto <a href="http://pt.wowhead.com/spell=248165">Cone</a></b> começa antes do último player com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> estourar!</li>
+
+
+          </ol>
+          <br>
+          <br>
+          <p>Agora com calma:</p>
+          <br>
+          <ol>
+            <li>A luta começa com todos stackados no pé do boss</li>
+            <li>Os melees se separam pra esperar: <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> e <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a>
+              <ul>
+                <li>O melee com <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> volta a stackar com o grupo</li>
+                <li>O melee com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> vai para a direita do boss. Se você ficou a esquerda do boss, aqui você pode tentar passar por tráz do grupo mas, não demore pq logo vem as orbs</li>
+              </ul>
+            </li>
+            <li>
+              Dois players vão pegar <a href="http://pt.wowhead.com/spell=257306">Dádiva do Mar</a> ou <a href="http://pt.wowhead.com/spell=257313">Dádiva dos Céus</a>:
+              <ul>
+                <li>Os orbs devem ficar atrás do grupo, uma ao lado da outra seguindo a linha da parede</li>
+                <li><a href="http://pt.wowhead.com/spell=257313">Dádiva dos Céus</a> fica a esquerda</li>
+                <li><a href="http://pt.wowhead.com/spell=257306">Dádiva do Mar</a> fica a direita</li>
+                <li>Se você esta com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> você pode largar a orb perto da parede a direita do grupo. Tenha certeza de não passar raiva pra ngm.</li>
+              </ul>
+            </li>
+            <li>O grupo corre pegar a sua orb e volta rapidinho pro pé do boss
+              <ul>
+                <li>Você pode esperar alguns segundos antes de pegar a sua orb. Assim você tem alguns segundos de folga pra pegar as próximas</li>
+                <li>Mas não demore pq já já vem o primeiro <a href="http://pt.wowhead.com/spell=248165">Cone</a></li>
+              </ul>
+            </li>
+            <li>O boss vai atingir 100 de energia, tenha certeza de estar no pé direito do boss</li>
+            <li>Assim que o boss começar a castar <a href="http://pt.wowhead.com/spell=248165">Cone</a> corra pra direita.
+              <ul>
+                <li>Não corra pra frente do boss.</li>
+              </ul>
+            </li>
+            <li>O <a href="http://pt.wowhead.com/spell=248165">Cone Nr 1</a> vai sujar o chão</li>
+            <br>
+            <li>Espere o boss andar e chegar na nova posição</li>
+            <li>Corra novamente pro pé direito do boss</li>
+            <li>Players vão pegar <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a>:
+              <ul>
+                <li>Tem um intervalinho entre um e outro pra pregar</li>
+                <li>Se você pegou corra pra traz do grupo e faca uma fila com os outros players com a praga</li>
+                <li>Estoure o blight o mais perto do cone no chão possivel
+                </li>
+                <li>Formem uma fila pra estourar a primeira mais ao fundo da sala e a ultima mais perto do grupo</li>
+              </ul>
+            </li>
+            <li>Dois Players vão precisar dropar <a href="http://pt.wowhead.com/spell=257306">Dádiva do Mar</a> e <a href="http://pt.wowhead.com/spell=257313">Dádiva dos Céus</a>:
+              <ul>
+                <li>As Orbs dropam logo antes do boss começar a castar <a href="http://pt.wowhead.com/spell=248165">Cone</a></li>
+                <li>Os 2 players com as orbs vão pra direita, dropam as orbs e voltam imediatemente pro pé direito do boss</li>
+              </ul>
+            </li>
+            <li>Antes de estourar o ultimo player com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a>, começa o segundo <a href="http://pt.wowhead.com/spell=248165">Cone</a></li>
+            <li>Se você esta com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> você deve estar pra tráz do grupo e precisa correr mais cedo pra dar tempo de sair do cone</li>
+            <li>O <a href="http://pt.wowhead.com/spell=248165">Cone Nr 2</a> vai sujar o chão</li>
+            <br>
+            <li>Você só pega a orbe depois que começar a castar o <a href="http://pt.wowhead.com/spell=248165">Cone</a></li>
+            <li>Correndo do cone você passa e pega a sua orb</li>
+            <li>A Ultima <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> termina de estourar</li>
+            <li>Espere o boss andar e chegar na nova posição</li>
+            <li>Corra novamente pro pé direito do boss</li>
+            <li>Players pegam <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> denovo mas logo vem o cone</li>
+            <li>Se você pegou <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> aqui, vá pra traz mas não muito. E não vá pra esquerda antes de começar o cone</li>
+            <li>Antes do primeiro player com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> estourar começa o terceiro cone</li>
+            <li>Durante o cast 2 player pegam as Orbs</li>
+            <li>O <a href="http://pt.wowhead.com/spell=248165">Cone Nr 3</a> vai sujar o chão</li>
+            <br>
+            <li>E aqui começa a baixaria:</li>
+            <li>Players ainda estarão com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> pra estourar </li>
+            <li>Assim que o cone bate as orbs dropam</li>
+            <li>Você corre pegar sua orb e já espalha pq vai vir <a href="http://pt.wowhead.com/spell=258068">Olhar de Sargeras</a> </li>
+            <li>Aqui é o primeiro <a href="http://pt.wowhead.com/spell=258068">Olhar de Sargeras</a> em que os Ranged precisam espalhar tbm</li>
+            <li>Você se espalha mas deixa o espaço perto do cone no chão pra quem esta com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a></li>
+            <li>Se você tem <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> você fica pra traz colado no cone no chão e evita pegar a sua ORB</li>
+            <li><a href="http://pt.wowhead.com/spell=258068">Olhar de Sargeras</a> explode e você pega <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> ou <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a></li>
+            <li>Se você pegou <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> você fica paradinho! Espera o grupo stackar novamente e então:
+              <ul>
+                <li>se você é range: você se posiciona atrás do grupo colado no cone no chão</li>
+                <li>se você é melee: você se posiciona a direita do boss, atravessa o meio dele entre as <a href="http://pt.wowhead.com/spell=248499">Foices</a></li>
+              </ul>
+            </li>
+            <li>Players pegam <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> e agora tem que cuidar com o possível ranged com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a></li>
+            <li>Se você é range e ta com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> você vai estar atrás  do grupo e vai precisar correr mais assim que o cone vier</li>
+            <li>O cast do quarto cone começa antes de estourar as <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a></li>
+          </ol>
+
+          <br>
+          <br>
+        </div>
+
+        <div id="phase2">
+          <h2 id="phase2">Phase 2:</h2>
+
+          <p>A phase 2 é mais calma mas você ainda precisa lidar com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a>/<a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a>. Além disso vc precisa sair de cima das [Foice Girando] e saber o que fazer com as [Orbs] </p>
+
+          <br>
+          <h3 id="phase2Prioryties">Prioridades:</h3>
+
+          <p>
+            Ordem com o que se preocupar:
+            <ol>
+              <li>
+                Saiba o que fazer com as [Orbs]
+                <ul>
+                  <li>muda conforme a vez... veja a <a href="#phase2Timeline">Timeline</a></li>
+                </ul>
+              </li>
+              <li>
+                Se espalhe na hora do <a href="http://pt.wowhead.com/spell=258068">Olhar de Sargeras</a>
+                <ul>
+                  <li>se pegou <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> fique estackado em baixo do boss</li>
+                  <li>se pegou <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> fique longe do grupo, o mais longe possível do estouro das [Orbs]</li>
+                </ul>
+              </li>
+              <li>Não tome [Foice Girando]</li>
+              <li>Por Ultimo, se vc for RDPS, se posicione longe do grupo para diminuir as chances de [Foice Girando] em cima do grupo todo</li>
+            </ol>
+          </p>
+
+          <br>
+          <h3 id="phase2Timeline">Timeline:</h3>
+
+        </div>
+
+        <div id="phase3">
+          <h2>Phase 3:</h2>
+          <p>¯\_(ツ)_/¯</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
-<h1 style="text-align: center;">Guia Completo Argus Mythic</h1> <br>
-<h2 id="phase1">Phase 1:</h2>
-
-<p>Na phase 1 você precisa lidar com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a>/<a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> junto com os <a href="http://pt.wowhead.com/spell=248165">Cones</a> + <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> e tbm as orbs: <a href="http://pt.wowhead.com/spell=257306">Dádiva do Mar</a>/<a href="http://pt.wowhead.com/spell=257313">Dádiva dos Céus</a> </p>
-
-<br>
-<h2 id="phase1Prioryties">Prioridades:</h2>
-
-<p>
-  Ordem com o que se preocupar:
-  <ol>
-    <li>Você não pode estar na frente do boss. Senão toma <a href="http://pt.wowhead.com/spell=248499"> Golpe Amplo de Foice</a></li>
-    <li>Na hora do <a href="http://pt.wowhead.com/spell=248165">Cone</a> (boss com 100 de energia) você precisa estar no pé direito do boss ou o mais perto da esquerda do cone anterior possível
-      <ul><li>Você pode ignorar isso se você for melee e estiver com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a></li></ul>
-    </li>
-    <li>Se tiver com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> você deve estourar a praga atrás do grupo grudado a esquerda do cone no chão.</li>
-    <li>Se você estiver com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> você fica parado e espera o grupo stackar no pé direito do boss e então:
-        <ul>
-          <li>Se você for melee: você precisa ir com a <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> para a direita do boss</li>
-          <li>Se você for ranged: você precisa ficar atrás do grupo, grudado a esquerda do cone no chão</li>
-        </ul>
-    </li>
-    <li>Se você estiver com <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> você fica stackado com o grupo no pé direito do boss</li>
-    <li>Se você não tiver nada dos acima: se posicione para largar <a href="http://pt.wowhead.com/spell=257306">Dádiva do Mar</a> e <a href="http://pt.wowhead.com/spell=257313">Dádiva dos Céus</a> no lugar certo (cada cone é em um lugar, veja a <a href="#phase1Timeline">Timeline</a>)</li>
-  </ol>
-</p>
-
-<h2 id="phase1OQueFazer">O que eu faço quando...</h2>
-<ol>
-  <li>
-    pedem pra espalhar?
-    <ul>
-      <li>
-        Você precisa ficar a 8 metros de distância de qualquer outro jogador enquanto <a href="http://pt.wowhead.com/spell=258068">Olhar de Sargeras</a> é castado. Assim que terminar você pode ter pego <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> ou <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a>.
-      </li>
-      <li>Se você for um range você não precisa se espalhar nas duas primeiras vezes. Isso pq nas duas primeiras vezes nunca vem <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> em um Range.</li>
-    </ul>
-  </li>
-  <li>peguei <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a>?
-    <ul>
-      <li>Você fica parado e espera o grupo voltar a stackar.</li>
-      <li>Assim que tiver um caminho livre vai pra sua posição:</li>
-      <li>Se você for um melee você deve ficar a direita do boss, cone nunca vai em um melee com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a></li>
-      <li>O melee pode atravesar o meio do boss se precisar, deve ter espaço o suficiente pra não pegar em ninguém e tempo suficiente entre as <a href="http://pt.wowhead.com/spell=248499">Foices</a> </li>
-      <li>Se você for um range você fica atrás do grupo colado a esquerda da cone no chão</li>
-    </ul>
-  </li>
-  <li>peguei <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a>?
-    <ul>
-      <li>Volta e stacka no pé do Boss e segue a vida</li>
-    </ul>
-  </li>
-  <li>peguei <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a>?
-    <ul>
-      <li>Você precisa explodir ela atrás do grupo, colado a esquerda do cone antigo, mas:</li>
-      <li>Vai ter outros players com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> junto contigo</li>
-      <li>Elas não estouram juntas</li>
-      <li>Então a primeira deve ir mais ao fundo da sala, e a ultima mais perto do grupo</li>
-      <li>Fique atento que o cone vem muitas vezes antes da sua <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> estourar</li>
-    </ul>
-  </li>
-  <li>peguei <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> + <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a>?
-    <ul>
-      <li>Você já deve estar longe do resto da pt... pode estourar ela perto de onde você estiver</li>
-    </ul>
-  </li>
-  <li>peguei <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> + <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a>?
-    <ul>
-      <li>Você se posiciona normal onde deve estourar a <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a>, mas:</li>
-      <li>Alguém (normalmente o OffTank ou outro rdps) precisa ir junto contigo, então vá andando normal, sem CD de movimentação</li>
-    </ul>
-  </li>
-  <li>peguei <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> + <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a>?!
-    <ul>
-      <li>Você tá no crack...</li>
-    </ul>
-  </li>
-  <li>peguei <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> e uma das orbs?
-    <ul>
-      <li>Ignora a orb e se posiciona certo com a Raiva</li>
-    </ul>
-  </li>
-  <li>peguei <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> e uma das orbs?
-    <ul>
-      <li>Normalmente você pode posicionar a orb no lugar certo que vai ter players a 8 metros de você mas, só vá se tiver certeza</li>
-    </ul>
-  </li>
-</ol>
-
-<br>
-<br>
-<h2 id="phase1Timeline">Timeline:</h2>
-<br>
-<p>Muita coisa acentece em poucos segundos! Isso é mais ou menos como tudo acentece:</p>
-
-<ol>
-  <li>Stacka</li>
-  <li>Melee espalha</li>
-  <li>Melee com <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> volta pra stack</li>
-  <li>Melee com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> vai pra direita do boss</li>
-  <li>Quem pegou orb se posiciona pra largar</li>
-  <li>Grupo corre pegar a orb e volta rapido</li>
-  <li><b>Primeiro <a href="http://pt.wowhead.com/spell=248165">Cone</a>!</b></li>
-  <br>
-  <li>Espera o boss chegar na nova posição</li>
-  <li>Corre stackar no pé direito dele</li>
-  <li>Players pegam <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> e junto vem <a href="http://pt.wowhead.com/spell=258068">Olhar de Sargeras</a></li>
-  <li>Players com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> vão pra traz</li>
-  <li>Melee se espalha</li>
-  <li>Player com <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> volta pra stack</li>
-  <li>Melee com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> vai pra direita do boss</li>
-  <li>Player com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> + <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> é escoltado pra traz do boss</li>
-  <li>Antes de acabar <a href="http://pt.wowhead.com/spell=258068">Olhar de Sargeras</a> já vem as Orbs </li>
-  <li>Veja se pegou <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> ou <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> antes de largar a orb</li>
-  <li>Quem pegou orb larga ela pra esquerda no caminho que a PT vai correr do cone</li>
-  <li>Orb dropa e todos tem que estar no pé direito do boss</li>
-  <li>Ninguém pega orb ainda!</li>
-  <li>Quem ta com a Orb + <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> ou <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> não precisa dropar lá</li>
-  <li>O <b>Segundo <a href="http://pt.wowhead.com/spell=248165">Cone</a></b> começa antes do ultimo player com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> estourar!</li>
-  <br>
-  <li>Passa pelas orbs enquanto corre do cone</li>
-  <li><a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> termina de estourar</li>
-  <li>Espera o boss chegar na nova posição</li>
-  <li>Corre stackar no pé direito dele</li>
-  <li>Players pegam <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a></li>
-  <li>O <b>Terceiro <a href="http://pt.wowhead.com/spell=248165">Cone</a></b> começa antes do primeiro player com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> estourar e junto vem as orbs!</li>
-  <br>
-  <li>Quem tá com as orbs larga elas a esquerda do cone</li>
-  <li>Quem ta com a Orb + <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> não precisa dropar lá</li>
-  <li>Grupo pega as orbs e já se espalha</li>
-  <li>Primeira vez que on ranged precisam espalhar tbm</li>
-  <li><a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> termina de estourar</li>
-  <li>Player com <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> volta pra stack</li>
-  <li>Melee com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> fica parado e vai pra direita do boss quande estiver safe</li>
-  <li>Range com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> fica parado e vai pra tráz do grupo e cola a esquerda do cone quando estiver safe</li>
-  <li>Players pegam <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a></li>
-  <li>Quem ta com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> precisa desviar do ranged com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a>.</li>
-  <li>Player com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> + <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> é escoltado pra traz do boss</li>
-  <li>O <b>Quarto <a href="http://pt.wowhead.com/spell=248165">Cone</a></b> começa antes do último player com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> estourar!</li>
 
 
-</ol>
-<br>
-<br>
-<p>Agora com calma:</p>
-<br>
-<ol>
-  <li>A luta começa com todos stackados no pé do boss</li>
-  <li>Os melees se separam pra esperar: <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> e <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a>
-    <ul>
-      <li>O melee com <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a> volta a stackar com o grupo</li>
-      <li>O melee com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> vai para a direita do boss. Se você ficou a esquerda do boss, aqui você pode tentar passar por tráz do grupo mas, não demore pq logo vem as orbs</li>
-    </ul>
-  </li>
-  <li>
-    Dois players vão pegar <a href="http://pt.wowhead.com/spell=257306">Dádiva do Mar</a> ou <a href="http://pt.wowhead.com/spell=257313">Dádiva dos Céus</a>:
-    <ul>
-      <li>Os orbs devem ficar atrás do grupo, uma ao lado da outra seguindo a linha da parede</li>
-      <li><a href="http://pt.wowhead.com/spell=257313">Dádiva dos Céus</a> fica a esquerda</li>
-      <li><a href="http://pt.wowhead.com/spell=257306">Dádiva do Mar</a> fica a direita</li>
-      <li>Se você esta com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> você pode largar a orb perto da parede a direita do grupo. Tenha certeza de não passar raiva pra ngm.</li>
-    </ul>
-  </li>
-  <li>O grupo corre pegar a sua orb e volta rapidinho pro pé do boss
-    <ul>
-      <li>Você pode esperar alguns segundos antes de pegar a sua orb. Assim você tem alguns segundos de folga pra pegar as próximas</li>
-      <li>Mas não demore pq já já vem o primeiro <a href="http://pt.wowhead.com/spell=248165">Cone</a></li>
-    </ul>
-  </li>
-  <li>O boss vai atingir 100 de energia, tenha certeza de estar no pé direito do boss</li>
-  <li>Assim que o boss começar a castar <a href="http://pt.wowhead.com/spell=248165">Cone</a> corra pra direita.
-    <ul>
-      <li>Não corra pra frente do boss.</li>
-    </ul>
-  </li>
-  <li>O <a href="http://pt.wowhead.com/spell=248165">Cone Nr 1</a> vai sujar o chão</li>
-  <br>
-  <li>Espere o boss andar e chegar na nova posição</li>
-  <li>Corra novamente pro pé direito do boss</li>
-  <li>Players vão pegar <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a>:
-    <ul>
-      <li>Tem um intervalinho entre um e outro pra pregar</li>
-      <li>Se você pegou corra pra traz do grupo e faca uma fila com os outros players com a praga</li>
-      <li>Estoure o blight o mais perto do cone no chão possivel
-      </li>
-      <li>Formem uma fila pra estourar a primeira mais ao fundo da sala e a ultima mais perto do grupo</li>
-    </ul>
-  </li>
-  <li>Dois Players vão precisar dropar <a href="http://pt.wowhead.com/spell=257306">Dádiva do Mar</a> e <a href="http://pt.wowhead.com/spell=257313">Dádiva dos Céus</a>:
-    <ul>
-      <li>As Orbs dropam logo antes do boss começar a castar <a href="http://pt.wowhead.com/spell=248165">Cone</a></li>
-      <li>Os 2 players com as orbs vão pra direita, dropam as orbs e voltam imediatemente pro pé direito do boss</li>
-    </ul>
-  </li>
-  <li>Antes de estourar o ultimo player com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a>, começa o segundo <a href="http://pt.wowhead.com/spell=248165">Cone</a></li>
-  <li>Se você esta com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> você deve estar pra tráz do grupo e precisa correr mais cedo pra dar tempo de sair do cone</li>
-  <li>O <a href="http://pt.wowhead.com/spell=248165">Cone Nr 2</a> vai sujar o chão</li>
-  <br>
-  <li>Você só pega a orbe depois que começar a castar o <a href="http://pt.wowhead.com/spell=248165">Cone</a></li>
-  <li>Correndo do cone você passa e pega a sua orb</li>
-  <li>A Ultima <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> termina de estourar</li>
-  <li>Espere o boss andar e chegar na nova posição</li>
-  <li>Corra novamente pro pé direito do boss</li>
-  <li>Players pegam <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> denovo mas logo vem o cone</li>
-  <li>Se você pegou <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> aqui, vá pra traz mas não muito. E não vá pra esquerda antes de começar o cone</li>
-  <li>Antes do primeiro player com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> estourar começa o terceiro cone</li>
-  <li>Durante o cast 2 player pegam as Orbs</li>
-  <li>O <a href="http://pt.wowhead.com/spell=248165">Cone Nr 3</a> vai sujar o chão</li>
-  <br>
-  <li>E aqui começa a baixaria:</li>
-  <li>Players ainda estarão com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> pra estourar </li>
-  <li>Assim que o cone bate as orbs dropam</li>
-  <li>Você corre pegar sua orb e já espalha pq vai vir <a href="http://pt.wowhead.com/spell=258068">Olhar de Sargeras</a> </li>
-  <li>Aqui é o primeiro <a href="http://pt.wowhead.com/spell=258068">Olhar de Sargeras</a> em que os Ranged precisam espalhar tbm</li>
-  <li>Você se espalha mas deixa o espaço perto do cone no chão pra quem esta com <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a></li>
-  <li>Se você tem <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> você fica pra traz colado no cone no chão e evita pegar a sua ORB</li>
-  <li><a href="http://pt.wowhead.com/spell=258068">Olhar de Sargeras</a> explode e você pega <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> ou <a href="http://pt.wowhead.com/spell=257930">Medo Esmagador</a></li>
-  <li>Se você pegou <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> você fica paradinho! Espera o grupo stackar novamente e então:
-    <ul>
-      <li>se você é range: você se posiciona atrás do grupo colado no cone no chão</li>
-      <li>se você é melee: você se posiciona a direita do boss, atravessa o meio dele entre as <a href="http://pt.wowhead.com/spell=248499">Foices</a></li>
-    </ul>
-  </li>
-  <li>Players pegam <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a> e agora tem que cuidar com o possível ranged com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a></li>
-  <li>Se você é range e ta com <a href="http://pt.wowhead.com/spell=257869">Raiva de Sargeras</a> você vai estar atrás  do grupo e vai precisar correr mais assim que o cone vier</li>
-  <li>O cast do quarto cone começa antes de estourar as <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a></li>
-</ol>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<h2 id="phase2">Phase 2:</h2>
-<p>¯\_(ツ)_/¯</p>
-
-<h2 id="phase3">Phase 3:</h2>
-<p>¯\_(ツ)_/¯</p>
 
 <!--
 
@@ -263,21 +331,9 @@ Foice: <a href="http://pt.wowhead.com/spell=248499">Golpe Amplo de Foice</a>
 
 BLight: <a href="http://pt.wowhead.com/spell=248396">Praga Anímica</a>
 
-<ul>
-<li>
-  <a href="#phase1">Phase 1</a>
-  <ul>
-    <li><a href="#phase1Prioryties">Prioridades</a></li>
-    <li><a href="#phase1OQueFazer">O Que eu faço quando...</a></li>
-    <li><a href="#phase1Timeline">Timeline</a></li>
-  </ul>
-</li>
-<li>
-  <a href="#phase2">Phase 2</a>
-</li>
-<li>
-  <a href="#phase3">Phase 3</a>
-</li>
-</ul>
+[Foice Girando]
+[Orbs]
 
 -->
+
+</div>
