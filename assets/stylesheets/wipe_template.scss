@@ -16,6 +16,7 @@ html, body {
   border-width: 25px;
   font-weight: 200;
   text-shadow: 1px 1px 1px black;
+  padding: 0;
 
   .wow-dialog-content {
     padding: 10px;
@@ -24,8 +25,31 @@ html, body {
 
     background: rgba(0,0,0,0.75);
   }
-}
 
+  a {
+    text-shadow: none;
+  }
+
+  &.wow-rock-background {
+    .wow-dialog-content {
+      background-image: url('/assets/images/UI-Background-Rock.PNG');
+      text-shadow: -1px -1px 1px grey;
+    }
+  }
+
+  &.wow-paper-background {
+    .wow-dialog-content {
+      background-image: url('/assets/images/question-background.PNG');
+      color: #3c2a1f;
+      text-shadow: 0px 0px 1px rgba(255,255,255,0.7);
+      font-weight: normal;
+    }
+
+    a {
+      color: #3c2a1f;
+    }
+  }
+}
 
 .wow-btn {
   border-image: url('/assets/images/ButtonBg.png') 45 stretch;
@@ -38,6 +62,7 @@ html, body {
     color: #fdca25;
     background-image: url('/assets/images/ButtonCenterBg.png');
     background-size: cover;
+    white-space: nowrap;
   }
 
   &:active {
@@ -48,4 +73,34 @@ html, body {
       background-image: url('/assets/images/PressedButtonCenterBg.png');
     }
   }
+}
+
+#header {
+  border-bottom: none;
+
+  #header-content {
+    height: 200px;
+    position: relative;
+
+    border-radius: 5px;
+    background-image: url('/assets/images/HeaderBg.png');
+    background-position: center center;
+    background-size: cover;
+
+    h1 {
+      position: absolute;
+      right: 20px;
+      bottom: 10px;
+    }
+  }
+}
+
+
+#menu {
+  margin-top: 3px;
+  text-align: center;
+}
+
+ul, ol {
+  padding-left: 20px;
 }
