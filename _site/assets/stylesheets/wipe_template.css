@@ -7,7 +7,7 @@ html, body { background: black; color: white; cursor: url("/assets/images/wow-cu
 .wow-dialog.wow-paper-background .wow-dialog-content { background-image: url("/assets/images/question-background.PNG"); color: #3c2a1f; text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.7); font-weight: normal; }
 .wow-dialog.wow-paper-background a { color: #3c2a1f; }
 
-.wow-btn { border-image: url("/assets/images/ButtonBg.png") 45 stretch; border-color: transparent; border-style: solid; border-width: 10px; }
+.wow-btn { border-image: url("/assets/images/ButtonBg.png") 45 stretch; border-color: transparent; border-style: solid; border-width: 10px; line-height: 40px; }
 .wow-btn > span { padding: 0px 5px; color: #fdca25; background-image: url("/assets/images/ButtonCenterBg.png"); background-size: cover; white-space: nowrap; }
 .wow-btn:active { border-image: url("/assets/images/PressedButtonBg.png") 50 stretch; }
 .wow-btn:active > span { text-shadow: 1px 1px rgba(0, 0, 0, 0.5), -1px -1px rgba(255, 255, 255, 0.2); background-image: url("/assets/images/PressedButtonCenterBg.png"); }
