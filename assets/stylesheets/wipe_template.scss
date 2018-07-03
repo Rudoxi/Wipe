@@ -8,10 +8,24 @@ html, body {
   font-family: 'Fira Sans', sans-serif;
 }
 
+.argus_spikes_bg {
+  background: url('/assets/images/argus_spikes.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.antorus_sky_bg {
+  background: url('/assets/images/antorus_sky.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 0;
+  background-size: cover;
+}
 
 .wow-dialog {
   border-image: url('/assets/images/DialogFrame-Corners.png') 20 stretch;
-  border-color: transparent;
   border-style: solid;
   border-width: 25px;
   font-weight: 200;
@@ -53,7 +67,6 @@ html, body {
 
 .wow-btn {
   border-image: url('/assets/images/ButtonBg.png') 45 stretch;
-  border-color: transparent;
   border-style: solid;
   border-width: 10px;
   line-height: 40px;
