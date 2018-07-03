@@ -13,7 +13,7 @@ html, body { background: black; color: white; cursor: url("/assets/images/wow-cu
 
 .wow-btn { border-image: url("/assets/images/ButtonBg.png") 45 stretch; border-style: solid; border-width: 10px; line-height: 40px; }
 .wow-btn > span { padding: 0px 5px; color: #fdca25; background-image: url("/assets/images/ButtonCenterBg.png"); background-size: cover; white-space: nowrap; }
-.wow-btn:active { border-image: url("/assets/images/PressedButtonBg.png") 50 stretch; }
+.wow-btn:active { border-image: url("/assets/images/PressedButtonBg.png") 50 stretch; border-style: solid; }
 .wow-btn:active > span { text-shadow: 1px 1px rgba(0, 0, 0, 0.5), -1px -1px rgba(255, 255, 255, 0.2); background-image: url("/assets/images/PressedButtonCenterBg.png"); }
 
 #header { border-bottom: none; }
@@ -23,3 +23,5 @@ html, body { background: black; color: white; cursor: url("/assets/images/wow-cu
 #menu { margin-top: 3px; text-align: center; }
 
 ul, ol { padding-left: 20px; }
+
+a:hover { text-decoration: none; }

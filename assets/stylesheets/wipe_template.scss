@@ -81,6 +81,7 @@ html, body {
 
   &:active {
     border-image: url('/assets/images/PressedButtonBg.png') 50 stretch;
+    border-style: solid;
 
     > span {
       text-shadow: 1px 1px rgba(0,0,0,0.5), -1px -1px rgba(255,255,255,0.2);
@@ -117,4 +118,8 @@ html, body {
 
 ul, ol {
   padding-left: 20px;
+}
+
+a:hover {
+  text-decoration: none;
 }
